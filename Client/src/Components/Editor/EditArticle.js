@@ -5,6 +5,7 @@ import "../Editor/editArticle.css";
 import Navbar from "../Navbar/Navbar";
 
 const EditArticle = () => {
+  console.log("hii");
   const navigate = useNavigate();
 
   const [title, setTitle] = useState("");
